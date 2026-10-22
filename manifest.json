@@ -1,0 +1,18 @@
+{
+  "name": "Сделка CRM",
+  "short_name": "Сделка",
+  "description": "CRM для торговых посредников",
+  "start_url": "/sdelka/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src": "/sdelka/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/sdelka/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Дашборд", "url": "/sdelka/#dashboard", "description": "Открыть дашборд"},
+    {"name": "Сделки", "url": "/sdelka/#deals", "description": "Список сделок"}
+  ]
+}
