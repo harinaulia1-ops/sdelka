@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сделка CRM</title>
+  <meta name="description" content="CRM для торговых посредников" />
+  <meta name="theme-color" content="#16a34a" />
+  <link rel="manifest" href="/sdelka/manifest.json" />
+  <link rel="apple-touch-icon" href="/sdelka/icon-192.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={darkMode:'class',theme:{extend:{}}}</script>
+  <style>*{box-sizing:border-box;-webkit-font-smoothing:antialiased}body{background:#f8faf8;margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif}.dark body{background:#111827}::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-thumb{background:#d1fae5;border-radius:9px}.dark ::-webkit-scrollbar-thumb{background:#374151}</style>
+  <script type="module" crossorigin src="./assets/index-B1eDUal4.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C36HMJKA.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    if('serviceWorker' in navigator){
+      window.addEventListener('load',()=>{
+        navigator.serviceWorker.register('/sdelka/sw.js').then(r=>console.log('SW ok',r.scope)).catch(e=>console.log('SW err',e))
+      })
+    }
+  </script>
+</body>
+</html>
